@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F2F2F7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 350px;
+    width: 300px;
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.donate-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0F62FE;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.donate-btn:hover {
+    background-color: #004BDB;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0F62FE;
+    margin-left: 5px;
+}
+
+footer i {
+    font-size: 16px;
+}

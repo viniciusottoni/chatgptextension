@@ -1,0 +1,26 @@
+{
+    "btnActivate": {
+        "message": "Ativar",
+        "description": "Button text for activate the extension"
+    },
+    "txtSearchPlaceholder": {
+      "message": "Buscar...",
+      "description": "Placeholder for the search input field"
+    },
+    "mftDescription": {
+      "message": "Encontre e organize suas buscas do Chat GPT.",
+      "description": "Extension description inside the manifest"
+    },
+    "pDescription": {
+        "message": "Esta extensão foi criada para ajudá-lo nas buscas e na organização do seu ChatGPT. Se ela tem sido útil para você, por favor, considere nos apoiar. <b>Todas as doações serão destinadas à realização do meu casamento</b>. Clique no botão abaixo e faça uma doação de qualquer valor. Agradecemos profundamente a sua generosidade!<br><br><i>obs: Estou trabalhando para aprimorar ainda mais a extensão, com a organização das buscas através de pastas direto pelo menu.</i>",
+        "description": "Paragraph for extension description"
+    },
+    "aDonate": {
+      "message": "Doar",
+      "description": "A link for donate with paypal"
+    },
+    "spnDevelopedBy": {
+      "message": "Desenvolvido por",
+      "description": "Span with the text that pointer to who developed the extension"
+    }
+}
