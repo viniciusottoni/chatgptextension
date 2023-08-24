@@ -5,28 +5,25 @@
   "version": "1.0.0",
   "description": "__MSG_mftDescription__",
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "src/html/popup.html",
     "default_icon": {
-      "16": "icons/icon3.png",
-      "48": "icons/icon3.png",
-      "128": "icons/icon3.png"
+      "16": "assets/icons/icon3.png",
+      "48": "assets/icons/icon3.png",
+      "128": "assets/icons/icon3.png"
     }
   },
   "content_scripts": [
     {
       "matches": ["https://chat.openai.com/*"],
-      "js": ["scripts/content.js"]
+      "js": ["src/js/content.js"]
     }
   ],
   "web_accessible_resources": [
     {
-        "resources": ["description.html"],
+        "resources": ["src/html/description.html"],
         "matches": ["https://chat.openai.com/*"],
         "extension_ids": ["*"]
     }
   ],
-  "background": {
-    "service_worker": "scripts/background.js"
-  },
   "permissions": ["activeTab", "scripting", "tabs"]
 }

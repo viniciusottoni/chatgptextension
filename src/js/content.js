@@ -39,7 +39,7 @@ function showPopup() {
     // Crie o conteúdo do popup
     const popupContent = document.createElement('div');
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", chrome.runtime.getURL('description.html'), true);
+    xhr.open("GET", chrome.runtime.getURL('src/html/description.html'), true);
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4) {
             if (xhr.status == 200) {
