@@ -24,11 +24,13 @@ function showPopup() {
             if (xhr.status == 200) {
                 const pDescription = chrome.i18n.getMessage("pDescription");
                 const aDonate = chrome.i18n.getMessage("aDonate");
+                const aSuggestion = chrome.i18n.getMessage("aSuggestion");
                 const spnDevelopedBy = chrome.i18n.getMessage("spnDevelopedBy");
                 
                 popupContent.innerHTML = xhr.responseText
                     .replace("__MSG_pDescription__", pDescription)
                     .replace("__MSG_aDonate__", aDonate)
+                    .replace("__MSG_aSuggestion__", aSuggestion)
                     .replace("__MSG_spnDevelopedBy__", spnDevelopedBy);
 
                 // Adicione o conteúdo do popup ao documento

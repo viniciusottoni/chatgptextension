@@ -7,6 +7,10 @@
       "message": "Saiba mais...",
       "description": "A link for learn more popup"
     },
+    "aSuggestion": {
+      "message": "Deixe sua sugestão",
+      "description": "A link for learn more popup"
+    },
     "btnActivate": {
         "message": "Ativar",
         "description": "Button text for activate the extension"

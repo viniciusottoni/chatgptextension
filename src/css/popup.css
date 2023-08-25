@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 430px;
     width: 350px;
 }
 
@@ -15,7 +15,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 350px;
+    height: 380px;
     width: 300px;
     text-align: center;
 }
@@ -46,6 +46,23 @@ p {
 
 .donate-btn:hover {
     background-color: #004BDB;
+}
+
+.link-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.suggestion-link {
+    color: #007BFF; 
+    text-decoration: none;
+    font-size: 12px; 
+    transition: color 0.3s; 
+}
+
+.suggestion-link:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
 }
 
 footer {
