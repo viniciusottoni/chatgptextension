@@ -15,7 +15,12 @@
   "content_scripts": [
     {
       "matches": ["https://chat.openai.com/*"],
-      "js": ["src/js/content.js"]
+      "js": [
+        "src/js/modules/search.js",
+        "src/js/modules/mutationObserver.js",
+        "src/js/modules/ui.js",
+        "src/js/content.js"
+      ]
     }
   ],
   "web_accessible_resources": [

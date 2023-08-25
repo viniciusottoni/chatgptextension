@@ -1,11 +1,15 @@
 {
+    "aDonate": {
+      "message": "Donate",
+      "description": "A link for donate with paypal"
+    },
+    "aLearnMore": {
+      "message": "Learn more...",
+      "description": "A link for learn more popup"
+    },
     "btnActivate": {
         "message": "Activate",
         "description": "Button text for activate the extension"
-    },
-    "txtSearchPlaceholder": {
-      "message": "Search...",
-      "description": "Placeholder for the search input field"
     },
     "mftDescription": {
       "message": "Find and organize your Chat GPT searchs.",
@@ -15,12 +19,12 @@
         "message": "This extension was created to assist you in searching and organizing your ChatGPT. If it has been helpful to you, please consider supporting us. <b>All donations will go towards funding my wedding</b>. Click the button below and make a donation of any amount. We deeply appreciate your generosity!<br><br><i>obs: I am working on further enhancing the extension, with the organization of searches through folders directly from the menu.</i>",
         "description": "Paragraph for extension description"
     },
-    "aDonate": {
-      "message": "Donate",
-      "description": "A link for donate with paypal"
-    },
     "spnDevelopedBy": {
       "message": "Developed by",
       "description": "Span with the text that pointer to who developed the extension"
+    },
+    "txtSearchPlaceholder": {
+      "message": "Search...",
+      "description": "Placeholder for the search input field"
     }
   }
